@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2022-01-06T20:09:12Z</date>
+    <groups>
+        <group>
+            <name>AP Wifi</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>Template Cisco WAP 561</template>
+            <name>Template Cisco WAP 561</name>
+            <description>WAPIFTYPE</description>
+            <groups>
+                <group>
+                    <name>AP Wifi</name>
+                </group>
+            </groups>
+            <discovery_rules>
+                <discovery_rule>
+                    <name>SSiD [#SNMPINDEX] Name: [#SSID]</name>
+                    <type>SNMPV2</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>discovery[{#SSID},CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigSsid,{#WAPIFTYPE},CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigType]</snmp_oid>
+                    <key>apIfConfigSsid.discovery</key>
+                    <delay>5s</delay>
+                    <filter>
+                        <evaltype>AND</evaltype>
+                        <conditions>
+                            <condition>
+                                <macro>{#WAPIFTYPE}</macro>
+                                <value>{$APIFTYPE.MATCHES}</value>
+                                <formulaid>C</formulaid>
+                            </condition>
+                            <condition>
+                                <macro>{#SSID}</macro>
+                                <value>{$SSID.NAME.MATCHES}</value>
+                                <formulaid>B</formulaid>
+                            </condition>
+                            <condition>
+                                <macro>{#SSID}</macro>
+                                <value>{$SSID.NAME.NOT_MATCHES}</value>
+                                <operator>NOT_MATCHES_REGEX</operator>
+                                <formulaid>A</formulaid>
+                            </condition>
+                        </conditions>
+                    </filter>
+                    <description>dCISCO-WLAN-ACCESS-POINT-MIB::apIfConfigSsid.{#SNMPINDEX},{#WVAPNAME},1.3.6.1.2.1.31.1.1.1.1&#13;
+&#13;
+discovery[&#13;
+{#IFOPERSTATUS},1.3.6.1.2.1.2.2.1.8,&#13;
+{#IFADMINSTATUS},1.3.6.1.2.1.2.2.1.7,&#13;
+{#IFALIAS},1.3.6.1.2.1.31.1.1.1.18,&#13;
+{#IFNAME},1.3.6.1.2.1.31.1.1.1.1,&#13;
+{#IFDESCR},1.3.6.1.2.1.2.2.1.2,</description>
+                    <item_prototypes>
+                        <item_prototype>
+                            <name>{#SSID} RX bps</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxBytes.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxBytes.[{#SNMPINDEX}]</key>
+                            <units>bps</units>
+                            <description>Orig= apIfConfigRxBytes.[{#SNMPINDEX}]&#13;
+&#13;
+Second = apIfConfigRxBytes[ifHCInOctets.{#SNMPINDEX}]</description>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                                <step>
+                                    <type>MULTIPLIER</type>
+                                    <params>8</params>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} RX Packets</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxPackets.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxPackets.[{#SNMPINDEX}]</key>
+                            <value_type>FLOAT</value_type>
+                            <units>pps</units>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>WVAP  {#SNMPINDEX} SSID: {#SSID}</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigSsid.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigSsid.[{#SNMPINDEX}]</key>
+                            <trends>0</trends>
+                            <value_type>CHAR</value_type>
+                            <description>{#IFNAME}({#IFALIAS})</description>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} TX bps</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxBytes.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxBytes.[{#SNMPINDEX}]</key>
+                            <units>bps</units>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                                <step>
+                                    <type>MULTIPLIER</type>
+                                    <params>8</params>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} TX Packets</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxPackets.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxPackets.[{#SNMPINDEX}]</key>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                    </item_prototypes>
+                </discovery_rule>
+            </discovery_rules>
+            <macros>
+                <macro>
+                    <macro>{$APIFTYPE.MATCHES}</macro>
+                    <value>service-set</value>
+                    <description>Anything that has service-set is a Wireless Access point or virtual access point - so can have a SSID</description>
+                </macro>
+                <macro>
+                    <macro>{$OID.REFERENCE.MATCHES}</macro>
+                    <value>^[3][0-6]|[1-2][0-9]|[5-9]</value>
+                    <description>Need OID references- 0-&gt;40</description>
+                </macro>
+                <macro>
+                    <macro>{$OID.REFERENCE.NOT_MATCHES}</macro>
+                    <description>... but only .5 through to .36 are valid for 32 &quot;Virtual Access Points&quot;</description>
+                </macro>
+                <macro>
+                    <macro>{$SSID.NAME.MATCHES}</macro>
+                    <value>^.*$</value>
+                    <description>Need to find all the entries</description>
+                </macro>
+                <macro>
+                    <macro>{$SSID.NAME.NOT_MATCHES}</macro>
+                    <value>^Virtual Access Point.*$</value>
+                    <description>... but entries with Virtual Access Point are default, disabled ones.</description>
+                </macro>
+            </macros>
+        </template>
+    </templates>
+</zabbix_export>
