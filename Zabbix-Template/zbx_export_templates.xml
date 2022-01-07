@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.4</version>
-    <date>2022-01-06T20:09:12Z</date>
+    <date>2022-01-07T09:40:41Z</date>
     <groups>
         <group>
             <name>AP Wifi</name>
@@ -11,7 +11,6 @@
         <template>
             <template>Template Cisco WAP 561</template>
             <name>Template Cisco WAP 561</name>
-            <description>WAPIFTYPE</description>
             <groups>
                 <group>
                     <name>AP Wifi</name>
@@ -46,14 +45,6 @@
                             </condition>
                         </conditions>
                     </filter>
-                    <description>dCISCO-WLAN-ACCESS-POINT-MIB::apIfConfigSsid.{#SNMPINDEX},{#WVAPNAME},1.3.6.1.2.1.31.1.1.1.1&#13;
-&#13;
-discovery[&#13;
-{#IFOPERSTATUS},1.3.6.1.2.1.2.2.1.8,&#13;
-{#IFADMINSTATUS},1.3.6.1.2.1.2.2.1.7,&#13;
-{#IFALIAS},1.3.6.1.2.1.31.1.1.1.18,&#13;
-{#IFNAME},1.3.6.1.2.1.31.1.1.1.1,&#13;
-{#IFDESCR},1.3.6.1.2.1.2.2.1.2,</description>
                     <item_prototypes>
                         <item_prototype>
                             <name>{#SSID} RX bps</name>
@@ -62,9 +53,6 @@ discovery[&#13;
                             <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxBytes.{#SNMPINDEX}</snmp_oid>
                             <key>apIfConfigRxBytes.[{#SNMPINDEX}]</key>
                             <units>bps</units>
-                            <description>Orig= apIfConfigRxBytes.[{#SNMPINDEX}]&#13;
-&#13;
-Second = apIfConfigRxBytes[ifHCInOctets.{#SNMPINDEX}]</description>
                             <preprocessing>
                                 <step>
                                     <type>CHANGE_PER_SECOND</type>
@@ -75,6 +63,38 @@ Second = apIfConfigRxBytes[ifHCInOctets.{#SNMPINDEX}]</description>
                                     <params>8</params>
                                 </step>
                             </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} RX Dropped Bps</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxDropBytes.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxDropBytes.[{#SNMPINDEX}]</key>
+                            <units>bps</units>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                                <step>
+                                    <type>MULTIPLIER</type>
+                                    <params>8</params>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} RX Dropped Packets</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxDropPackets.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxDropPackets.[{#SNMPINDEX}]</key>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} RX Errors</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxErrors.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxErrors.[{#SNMPINDEX}]</key>
                         </item_prototype>
                         <item_prototype>
                             <name>{#SSID} RX Packets</name>
@@ -99,7 +119,6 @@ Second = apIfConfigRxBytes[ifHCInOctets.{#SNMPINDEX}]</description>
                             <key>apIfConfigSsid.[{#SNMPINDEX}]</key>
                             <trends>0</trends>
                             <value_type>CHAR</value_type>
-                            <description>{#IFNAME}({#IFALIAS})</description>
                         </item_prototype>
                         <item_prototype>
                             <name>{#SSID} TX bps</name>
@@ -120,11 +139,120 @@ Second = apIfConfigRxBytes[ifHCInOctets.{#SNMPINDEX}]</description>
                             </preprocessing>
                         </item_prototype>
                         <item_prototype>
+                            <name>{#SSID} TX Dropped Bps</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxDropBytes.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxDropBytes.[{#SNMPINDEX}]</key>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} TX Dropped Packets</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxDropPackets.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxDropPackets.[{#SNMPINDEX}]</key>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>{#SSID} TX Errors</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxErrors.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxErrors.[{#SNMPINDEX}]</key>
+                        </item_prototype>
+                        <item_prototype>
                             <name>{#SSID} TX Packets</name>
                             <type>SNMPV2</type>
                             <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxPackets.{#SNMPINDEX}</snmp_oid>
                             <key>apIfConfigTxPackets.[{#SNMPINDEX}]</key>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                    </item_prototypes>
+                </discovery_rule>
+                <discovery_rule>
+                    <name>LAN [#SNMPINDEX] Name</name>
+                    <type>SNMPV2</type>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                    <snmp_oid>discovery[{#SSID},CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigSsid,{#LANIFTYPE},CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigType]</snmp_oid>
+                    <key>apIfConfigSsid.ethernet.discovery</key>
+                    <delay>5s</delay>
+                    <filter>
+                        <conditions>
+                            <condition>
+                                <macro>{#LANIFTYPE}</macro>
+                                <value>{$IFTYPE.MATCHES}</value>
+                                <formulaid>A</formulaid>
+                            </condition>
+                        </conditions>
+                    </filter>
+                    <item_prototypes>
+                        <item_prototype>
+                            <name>Wired LAN RX Bps</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxBytes.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxBytes.ethernet.[{#SNMPINDEX}]</key>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                                <step>
+                                    <type>MULTIPLIER</type>
+                                    <params>8</params>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Wired LAN RX Packets/s</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigRxPackets.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigRxPackets.ethernet.[{#SNMPINDEX}]</key>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Wired LAN: {#LANIFTYPE}</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigSsid.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigSsid.ethernet.[{#SNMPINDEX}]</key>
+                            <trends>0</trends>
+                            <value_type>CHAR</value_type>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Wired LAN TX Bps</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxBytes.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxBytes.ethernet.[{#SNMPINDEX}]</key>
+                            <preprocessing>
+                                <step>
+                                    <type>CHANGE_PER_SECOND</type>
+                                    <params/>
+                                </step>
+                                <step>
+                                    <type>MULTIPLIER</type>
+                                    <params>8</params>
+                                </step>
+                            </preprocessing>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>Wired LAN TX Packets/s</name>
+                            <type>SNMPV2</type>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
+                            <snmp_oid>CISCO-WLAN-ACCESS-POINT-MIB::apIfConfigTxPackets.{#SNMPINDEX}</snmp_oid>
+                            <key>apIfConfigTxPackets.ethernet.[{#SNMPINDEX}]</key>
                             <preprocessing>
                                 <step>
                                     <type>CHANGE_PER_SECOND</type>
@@ -140,6 +268,11 @@ Second = apIfConfigRxBytes[ifHCInOctets.{#SNMPINDEX}]</description>
                     <macro>{$APIFTYPE.MATCHES}</macro>
                     <value>service-set</value>
                     <description>Anything that has service-set is a Wireless Access point or virtual access point - so can have a SSID</description>
+                </macro>
+                <macro>
+                    <macro>{$IFTYPE.MATCHES}</macro>
+                    <value>ethernet</value>
+                    <description>This is the LAN Connection</description>
                 </macro>
                 <macro>
                     <macro>{$OID.REFERENCE.MATCHES}</macro>

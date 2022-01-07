@@ -1,0 +1,373 @@
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.5 = STRING: "THEFOOD"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.6 = STRING: "THEFOODie"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.7 = STRING: "Virtual Access Point 3"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.8 = STRING: "Virtual Access Point 4"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.9 = STRING: "Virtual Access Point 5"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.10 = STRING: "Virtual Access Point 6"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.11 = STRING: "Virtual Access Point 7"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.12 = STRING: "Virtual Access Point 8"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.13 = STRING: "Virtual Access Point 9"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.14 = STRING: "Virtual Access Point 10"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.15 = STRING: "Virtual Access Point 11"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.16 = STRING: "Virtual Access Point 12"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.17 = STRING: "Virtual Access Point 13"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.18 = STRING: "Virtual Access Point 14"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.19 = STRING: "Virtual Access Point 15"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.20 = STRING: "Virtual Access Point 16"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.21 = STRING: "AHOLE"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.22 = STRING: "RimPiece"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.23 = STRING: "Virtual Access Point 3"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.24 = STRING: "Virtual Access Point 4"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.25 = STRING: "Virtual Access Point 5"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.26 = STRING: "Virtual Access Point 6"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.27 = STRING: "Virtual Access Point 7"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.28 = STRING: "Virtual Access Point 8"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.29 = STRING: "Virtual Access Point 9"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.30 = STRING: "Virtual Access Point 10"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.31 = STRING: "Virtual Access Point 11"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.32 = STRING: "Virtual Access Point 12"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.33 = STRING: "Virtual Access Point 13"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.34 = STRING: "Virtual Access Point 14"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.35 = STRING: "Virtual Access Point 15"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.36 = STRING: "Virtual Access Point 16"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.37 = ""
+
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.1 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.2 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.3 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.4 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.5 = STRING: "HOLYSHIT!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.6 = STRING: "HOLYSHIT!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.7 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.8 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.9 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.10 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.11 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.12 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.13 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.14 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.15 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.16 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.17 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.18 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.19 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.20 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.21 = STRING: "MUTHAFUCKER!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.22 = STRING: "MUTHAFUCKER"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.23 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.24 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.25 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.26 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.27 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.28 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.29 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.30 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.31 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.32 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.33 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.34 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.35 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.36 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.37 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.38 = ""
+oooo
+
+
+
+
+
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.39 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.40 = ""
+O
+
+
+iso.3.6.1.4.1.9.6.1.104.1.6.1.1.3.5.119.108.97.110.48 = STRING: "wlan0"
+iso.3.6.1.4.1.9.6.1.104.1.6.1.1.3.5.119.108.97.110.49 = STRING: "wlan1"
+iso.3.6.1.4.1.9.6.1.104.1.6.1.1.4.5.119.108.97.110.48 = Hex-STRING: 88 90 8D 41 CA D0
+iso.3.6.1.4.1.9.6.1.104.1.6.1.1.4.5.119.108.97.110.49 = Hex-STRING: 88 90 8D 41 CA E0
+
+o
+
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.48 = Hex-STRING: 88 90 8D 41 CA D0
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.49 = Hex-STRING: 88 90 8D 41 CA D1
+
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.48 = Hex-STRING: 88 90 8D 41 CA E0
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.49 = Hex-STRING: 88 90 8D 41 CA E1
+
+iso.3.6.1.2.1.1.1.0 = STRING: "Linux, Cisco Systems, Inc WAP561 (WAP561-E-K9), Version 1.2.1.7"
+iso.3.6.1.2.1.1.2.0 = OID: iso.3.6.1.4.1.9.6.1.32.561.1
+iso.3.6.1.2.1.1.3.0 = Timeticks: (9312400) 1 day, 1:52:04.00
+iso.3.6.1.2.1.1.4.0 = STRING: "Me"
+iso.3.6.1.2.1.1.5.0 = STRING: "HOSTNAME"
+iso.3.6.1.2.1.1.6.0 = STRING: "Mars"
+iso.3.6.1.2.1.1.7.0 = INTEGER: 67
+iso.3.6.1.2.1.1.8.0 = Timeticks: (180) 0:00:01.80
+
+iso.3.6.1.2.1.47.1.1.1.1.2.1 = STRING: "WAP561 Wireless-N Dual Radio Selectable-Band Access Point with Single Point Setup"
+iso.3.6.1.2.1.47.1.1.1.1.3.1 = OID: ccitt.0
+iso.3.6.1.2.1.47.1.1.1.1.4.1 = INTEGER: 0
+iso.3.6.1.2.1.47.1.1.1.1.5.1 = INTEGER: 9
+iso.3.6.1.2.1.47.1.1.1.1.6.1 = INTEGER: -1
+iso.3.6.1.2.1.47.1.1.1.1.7.1 = STRING: "WAP561-E-K9"
+iso.3.6.1.2.1.47.1.1.1.1.8.1 = STRING: "V01"
+iso.3.6.1.2.1.47.1.1.1.1.9.1 = STRING: "1.2.1.7"
+iso.3.6.1.2.1.47.1.1.1.1.10.1 = STRING: "1.2.1.7"
+iso.3.6.1.2.1.47.1.1.1.1.11.1 = STRING: "DNI1819A1FL"
+iso.3.6.1.2.1.47.1.1.1.1.12.1 = STRING: "Cisco Systems, Inc"
+iso.3.6.1.2.1.47.1.1.1.1.13.1 = STRING: "WAP561-E-K9"
+
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.5 = STRING: "THEFOOD"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.6 = STRING: "THEFOODie"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.7 = STRING: "Virtual Access Point 3"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.8 = STRING: "Virtual Access Point 4"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.9 = STRING: "Virtual Access Point 5"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.10 = STRING: "Virtual Access Point 6"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.11 = STRING: "Virtual Access Point 7"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.12 = STRING: "Virtual Access Point 8"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.13 = STRING: "Virtual Access Point 9"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.14 = STRING: "Virtual Access Point 10"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.15 = STRING: "Virtual Access Point 11"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.16 = STRING: "Virtual Access Point 12"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.17 = STRING: "Virtual Access Point 13"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.18 = STRING: "Virtual Access Point 14"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.19 = STRING: "Virtual Access Point 15"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.20 = STRING: "Virtual Access Point 16"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.21 = STRING: "AHOLE"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.22 = STRING: "RimPiece"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.23 = STRING: "Virtual Access Point 3"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.24 = STRING: "Virtual Access Point 4"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.25 = STRING: "Virtual Access Point 5"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.26 = STRING: "Virtual Access Point 6"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.27 = STRING: "Virtual Access Point 7"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.28 = STRING: "Virtual Access Point 8"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.29 = STRING: "Virtual Access Point 9"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.30 = STRING: "Virtual Access Point 10"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.31 = STRING: "Virtual Access Point 11"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.32 = STRING: "Virtual Access Point 12"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.33 = STRING: "Virtual Access Point 13"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.34 = STRING: "Virtual Access Point 14"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.35 = STRING: "Virtual Access Point 15"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.11.36 = STRING: "Virtual Access Point 16"
+
+1.1.11.36 = STRING: "Virtual Access Point 16"
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.1 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.2 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.3 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.4 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.5 = STRING: "!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.6 = STRING: "!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.7 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.8 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.9 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.10 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.11 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.12 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.13 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.14 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.15 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.16 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.17 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.18 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.19 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.20 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.21 = STRING: "!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.22 = STRING: "+%"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.23 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.24 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.25 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.26 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.27 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.28 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.29 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.30 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.31 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.32 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.33 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.34 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.35 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.36 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.37 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.38 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.39 = ""
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.40 = ""
+
+
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.48 = Hex-STRING: 18 9C 5D 3F 77 E0
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.49 = Hex-STRING: 18 9C 5D 3F 77 E1
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.50 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.51 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.52 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.53 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.54 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.55 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.56 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.48.98.115.115.118.97.112.57 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.48 = Hex-STRING: 18 9C 5D 3F 77 F0
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.49 = Hex-STRING: 18 9C 5D 3F 77 F1
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.50 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.51 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.52 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.53 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.54 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.55 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.56 = ""
+iso.3.6.1.4.1.9.6.1.104.1.6.2.1.6.12.119.108.97.110.49.98.115.115.118.97.112.57 = ""
+
+
+o
+Total Packets
+
+iso.3.6.1.2.1.17.4.4.1.3.1 = Counter32: 9058880
+iso.3.6.1.2.1.17.4.4.1.3.2 = Counter32: 140155
+iso.3.6.1.2.1.17.4.4.1.3.3 = Counter32: 0
+iso.3.6.1.2.1.17.4.4.1.3.4 = Counter32: 4051328
+iso.3.6.1.2.1.17.4.4.1.3.5 = Counter32: 0
+iso.3.6.1.2.1.17.4.4.1.3.6 = Counter32: 0
+iso.3.6.1.2.1.17.4.4.1.3.7 = Counter32: 0
+o
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.5 = STRING: "!"
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.14.6 = STRING: "!"
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.29.20 = INTEGER: 7614 	total Receive packets - WLAN0:VAP15
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.28.20 = INTEGER: 12751    Total Recive Bytes  - WLAN0:VAP15
+
+REceive Dropped packets
+REceive droppet bytes
+REceive errors
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.31.20 = INTEGER: 3823504   Total Transmit Bytes  - WLAN0:VAP15
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.32.20 = INTEGER: 11349   Total Transmit Packets  - WLAN0:VAP15
+
+
+Transmit Dropped packets
+Transmot droppet bytes
+Transmit errors
+
+
+
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.29.37 = INTEGER: 3110    = LAN  (or .40)
+o
+
+37 is the LAN - Etheret port 
+
+ciscosbWLANAP.my:             apIfConfigType                     DisplayString,
+
+ciscosbWLANAP.my:             apIfConfigRxBytes                  Integer32, ----  3.6.1.4.1.9.6.1.104.1.5.1.1.28
+
+
+
+me@hostname ~ $ snmpwalk -v2c -c STRING <IPADDRESS>  .1.3.6.1.4.1.9.6.1.104.1.5.1.1.28.21
+iso.3.6.1.4.1.9.6.1.104.1.5.1.1.28.21 = INTEGER: 30192717
+
+me@hostname ~ $ snmpwalk -v2c -c STRING <IPADDRESS> iso.3.6.1.2.1.31.1.1.1.6.5
+iso.3.6.1.2.1.31.1.1.1.6.5 = Counter64: 30192717
+
+
+ciscosbWLANAP.my:             apIfConfigRxPackets                Integer32, ----  3.6.1.4.1.9.6.1.104.1.5.1.1.29
+.29.21 = .7.5
+
+ciscosbWLANAP.my:             apIfConfigRxErrors                 Integer32, ----  3.6.1.4.1.9.6.1.104.1.5.1.1.30 
+
+ciscosbWLANAP.my:             apIfConfigRxDropBytes              Integer32, ---  3.6.1.4.1.9.6.1.104.1.5.1.1.35
+ciscosbWLANAP.my:             apIfConfigRxDropPackets            Integer32  ---  3.6.1.4.1.9.6.1.104.1.5.1.1.37
+
+-----------------------
+ciscosbWLANAP.my:             apIfConfigTxBytes                  Integer32, ----  3.6.1.4.1.9.6.1.104.1.5.1.1.31
+TransmitBytes
+.31.21 => 10.5
+
+ciscosbWLANAP.my:             apIfConfigTxPackets                Integer32, ----  3.6.1.4.1.9.6.1.104.1.5.1.1.32
+.32.21 => 10.5
+
+ciscosbWLANAP.my:             apIfConfigTxErrors                 Integer32, ----  3.6.1.4.1.9.6.1.104.1.5.1.1.33 
+
+ciscosbWLANAP.my:             apIfConfigTxDropBytes              Integer32, ---  3.6.1.4.1.9.6.1.104.1.5.1.1.34
+ciscosbWLANAP.my:             apIfConfigTxDropPackets            Integer32  ---  3.6.1.4.1.9.6.1.104.1.5.1.1.36
+
+
+
+WAP0 - VAP0 = .5
+WAP0 - VAP1 = .6
+WAP0 - VAP0+n = .5+n
+
+WAP1 - VAP0 = .21
+WAP1 - VAP1 = .22
+WAP1 - VAP0+n = .21+n
+
+me@hostname ~ $ snmpwalk -v2c -c STRING <IPADDRES> CISCO-WLAN-ACCESS-POINT-MIB::apBssTable
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap0" = INTEGER: up(1)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap1" = INTEGER: up(1)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap2" = INTEGER: up(1)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap3" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap4" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap5" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap6" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap7" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap8" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap9" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap0" = INTEGER: up(1)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap1" = INTEGER: up(1)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap2" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap3" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap4" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap5" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap6" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap7" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap8" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap9" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap10" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap11" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap12" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap13" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap14" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan0bssvap15" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap10" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap11" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap12" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap13" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap14" = INTEGER: down(2)
+CISCO-WLAN-ACCESS-POINT-MIB::apBssStatus."wlan1bssvap15" = INTEGER: down(2)
+
+
+
+ciscosbWLANAP.my:             apIfConfigTsVoTxBytes              Integer32,
+ciscosbWLANAP.my:             apIfConfigTsViTxBytes              Integer32,
+ciscosbWLANAP.my:             apIfConfigTsVoRxBytes              Integer32,
+ciscosbWLANAP.my:             apIfConfigTsViRxBytes              Integer32,
+ciscosbWLANAP.my:             apIfConfigTsVoTxPackets            Integer32,
+ciscosbWLANAP.my:             apIfConfigTsViTxPackets            Integer32,
+ciscosbWLANAP.my:             apIfConfigTsVoRxPackets            Integer32,
+
+[200~discovery[
+{#IFOPERSTATUS},1.3.6.1.2.1.2.2.1.8,
+{#IFADMINSTATUS},1.3.6.1.2.1.2.2.1.7,
+{#IFALIAS},1.3.6.1.2.1.31.1.1.1.18,
+{#IFNAME},1.3.6.1.2.1.31.1.1.1.1,
+{#IFDESCR},1.3.6.1.2.1.2.2.1.2,
+{#IFTYPE},1.3.6.1.2.1.2.2.1.3]
+
+
+
+service-set
+
+([1-4]$)|3[7-9]|4\d
+
+/^\d{1,2}$/
+
+
+
+^(12[0-6]|1[01][0-9]|[4-9][0-9]|3[2-9])$
+
+
+
+apIfConfigMacAddress
+
+CISCO-WLAN-ACCESS-POINT-MIB::apRadioFrequency."wlan0" = INTEGER: 2462
+CISCO-WLAN-ACCESS-POINT-MIB::apRadioFrequency."wlan1" = INTEGER: 5500
